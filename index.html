@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="screen.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/external/jquery/jquery.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/animateBG.js"></script>
+
+		<script>
+		    jQuery(document).ready(function(){
+
+		        $('.animatedBG1').animatedBG({
+		            colorSet: ['#ffff00', '#00ffff', '#46020F', '#F47318', '#111111'],
+		            speed: 2000
+		        });
+		    });
+		</script>
+</head>
+
+<body  class="animatedBG1">
+
+
+
+	<div>
+	      <ul id="menu">
+					<li><a href="#">Link1</a></li>
+					<li><a href="#">Link2</a></li>
+					<li><a href="#">Link3</a></li>
+
+				</ul>
+	</div>
+
+  <div class="header">
+        <h1>Logo</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <h1>The Left Column</h1>
+            <p>This is the left column. This is the left column. This is the left column. This is the left column. This is the left column. This is the left column.</p>
+        </div>
+
+        <div class="col-6 right">
+            <div class="aside">
+                <h2>Google</h2>
+                <p>Don't be evil.</p>
+                <h2>Apple</h2>
+                <p>Think different.</p>
+                <h2>Airbnb</h2>
+                <p>Belong Anywhere.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Phone: 1-613-305-4114</p>
+				<p>Email: me@natumyers.com</p>
+    </div>
+
+</body>
+
+</html>
