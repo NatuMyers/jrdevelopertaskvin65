@@ -50,6 +50,6 @@ Feel free to style however you’d like beyond these guidelines, but we will be 
 
 the actual code written rather than the overall look.
 
-Please send your zipped up files to karson@vin65.com. Once we review them, we’ll contact
+Please send your zipped up files to ---. Once we review them, we’ll contact
 
 you about whether we’d like to bring you in for a second interview.
